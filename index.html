@@ -1,0 +1,27 @@
+<html>
+    <title></title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <h1 class="title">What do you know?</h1>
+        <div id="displayQuestion">
+		<h1 id="question"></h1>
+            <ul style="list-style: none;">
+                <li> <input type="radio" id="A" name="choices" value="choiceA"><label id ="choiceA" for="A"></label></li>
+                <li><input type="radio" id="B" name="choices" value="choiceB"><label id ="choiceB" for="B"></label></li>
+                <li><input type="radio" id="C" name="choices" value="choiceC"><label id ="choiceC" for="C"></label></li>
+                <li><input type="radio" id="D" name="choices" value="choiceD"><label id="choiceD" for="D"></label></li>
+                <li><input type="button" id="submit" value="submit"></li>
+                <li><p id="indexWhestion"></p></li>
+            </ul>
+            
+        </div>
+        <footer id="displaySummary" style="display:none">
+		<p><a href="index.html">Retake the quiz </a></p>
+		<p><a href="addquestion.html">Add new question </a></p>
+
+	</footer>
+        <script src="myscript.js"></script>
+    </body>
+</html>
